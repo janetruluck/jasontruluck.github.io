@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(Opinonated) Jenkins CI Installation Script"
+title:  "(Opinionated) Jenkins CI Installation Script"
 date:   2013-07-13 15:48:40
 categories: ruby jenkins ci automation
 ---
