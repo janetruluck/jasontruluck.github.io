@@ -8,7 +8,7 @@ title:  About
   Hi! I am Jason Truluck, a developer, tinkerer, and overall geek. 
   <br/><br/>
 
-  This blog will chronical my travels through development, projects and pretty
+  This blog will chronicle my travels through development, projects and pretty
   much any thought I find useful to share or keep. 
   <br/><br/>
 
