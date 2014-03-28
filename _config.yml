@@ -7,6 +7,9 @@ title: Jason Truluck's Blog
 # Analytics
 google_analytics: UA-28345761-1
 
+# Disqus
+disqus_shortname: jasontruluck
+
 # Jekyll Config
 pygments: true
 markdown: kramdown
