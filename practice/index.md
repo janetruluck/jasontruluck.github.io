@@ -31,5 +31,4 @@ title:  Practice
     </li>
   {% endfor %}
   </ul>
-  Coming Soon!
 </div>
