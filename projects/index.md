@@ -15,7 +15,7 @@ title:  Projects
     <li>
       {% if entry.github %}
         <a href="{{ entry.github }}" target="_blank">
-          {% icon fa-github %}
+          <i class="fa fa-github"> </i>
         </a>
       {% endif %}
       {% if entry.bitbucket %}
