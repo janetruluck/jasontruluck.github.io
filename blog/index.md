@@ -15,7 +15,7 @@ title: Jason Truluck
   {% for entry in site.categories.blog  %}
     <li>
       <span>{{ entry.date | date_to_string }}</span> &raquo;
-      <a href="{{ entry.url }}/">{{ entry.title }}</a></br>
+      <a href="{{ entry.url }}">{{ entry.title }}</a></br>
       <em>{{ entry.description }}</em>
     </li>
   {% endfor %}

@@ -9,7 +9,7 @@ title: Jason Truluck
     {% for post in site.posts %}
       <li>
         <span>{{ post.date | date_to_string }}</span> &raquo;
-        <a href="{{ post.url }}/">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{ post.title }}</a>
         posted in
         {% for category in post.categories %}
           <a href="{{ category }}/">{{ category }}</a>
