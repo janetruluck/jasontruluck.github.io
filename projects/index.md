@@ -23,7 +23,7 @@ title:  Projects
           <i class="fa fa-bitbucket"> </i>
         </a>
       {% endif %}
-      <a href="{{ entry.url }}/">{{ entry.title }}</a></br>
+      <a href="{{ entry.url }}/">{{ entry.title }}</a><br/>
       <em>{{ entry.description }}</em>
     </li>
   {% endfor %}

@@ -2,7 +2,7 @@
 layout: post
 title:  "Converting String-Arrays to Arrays in Ruby"
 date:   2013-06-12 17:48:40
-categories: ruyb array string optimization tricks postgres
+categories: ruby array string optimization tricks postgres
 ---
 A quick trick that came to mind recently for converting string arrays to arrays
 was something that seems to come up quite a bit. Just to define what I am
