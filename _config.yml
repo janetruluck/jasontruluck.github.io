@@ -9,6 +9,7 @@ google_analytics: UA-28345761-1
 
 # Jekyll Config
 pygments: true
+markdown: kramdown
 
 # Feed
 feed_name: Jason Truluck's Blog
