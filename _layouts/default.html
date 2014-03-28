@@ -8,15 +8,16 @@
 
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
 
     <!-- RSS FEED -->
-    <link rel="alternate" type="application/rss+xml" title="Jason Truluck's Dev Blog" href="http://feeds.feedburner.com/JasonTrulucksDevBlog">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.feed_name }}" href="http://feeds.feedburner.com/{{ site.feed_burner }}">
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-28345761-1']);
+      _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
       _gaq.push(['_trackPageview']);
 
       (function() {
@@ -35,21 +36,21 @@
       <div class="container">
         <div class="sidebar">
           <div class="header">
-            <img src="https://secure.gravatar.com/avatar/06dcf60f0a55f880a641f7bee802283d.png?s=128"/>
-            <h3 class="title"><a href="/">{{ site.name }}</a></h3>
-            <a class="extra" href="/">home</a>
-            <a class="extra" href="/about.html">about</a>
-          </div>
-          <div class="contact">
+            <img src="https://secure.gravatar.com/avatar/{{ site.gravatar_id }}.png?s=128"/>
+            <h3 class="title">
+              <a href="/">{{ site.author }}</a>
+              <a href="/atom.xml">{% icon fa-rss %}</a>
+            </h3>
             <p>
-              <a href="http://github.com/jasontruluck/" target="_blank">Github</a><br />
-              <a href="https://rubygems.org/profiles/jasontruluck" target="_blank">Ruby Gems</a><br />
-              <a href="http://stackoverflow.com/users/1359888/jason-truluck" target="_blank">Stack Overflow</a><br />
-              <a href="mailto:jason@jasontruluck.org" title="Email me!" target="_blank">Email</a><br />
-              <a href="mailto:jason@jasontruluck.org" title="Pair program with me!">
+              <a href="mailto:jason@{{ site.domain }}" title="Pair program with me!">
                 <img  id="pair-badge" src="http://pairprogramwith.me/badge.png" alt="Pair program with me!" />
               </a>
             </p>
+            <a class="extra" href="/">home</a><br/>
+            <a class="extra" href="/about.html">about</a><br/>
+            <a class="extra" href="/blog">blog</a><br/>
+            <a class="extra" href="/projects">projects</a><br/>
+            <a class="extra" href="/practice">practice</a>
           </div>
         </div>
 
@@ -59,14 +60,40 @@
 
         <div class="clear"></div>
 
+        <!-- footer -->
         <div class="footer">
-          <div class="contact">
+          <div class="sub-item">
+            <h4>
+              Find Me On
+            </h4>
             <p>
-            Jason Truluck<br />
-            jason.truluck@gmail.com
+              <a href="http://github.com/jasontruluck/" target="_blank">
+                {% icon fa-github fa-lg %}
+              </a>
+              <a href="https://bitbucket.org/jasontruluck" target="_blank">
+                {% icon fa-bitbucket fa-lg %}
+              </a>
+              <a href="http://stackoverflow.com/users/1359888/jason-truluck" target="_blank">
+                {% icon fa-stack-overflow fa-lg %}
+              </a>
+              <a href="https://twitter.com/jtruluck" target="_blank">
+                {% icon fa-twitter fa-lg %}
+              </a><br/>
+              <a href="https://rubygems.org/profiles/jasontruluck" target="_blank">
+                Ruby Gems
+              </a>
             </p>
           </div>
-        </div>
+          <div class="sub-item">
+            <h4>
+              Contact
+            </h4>
+            <p>
+              {{ site.author }}<br/>
+              jason@{{ site.domain }}
+            </p>
+          </div>
+        </div> <!-- /footer -->
       </div> <!-- /container -->
   </body>
 </html>

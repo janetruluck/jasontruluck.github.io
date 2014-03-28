@@ -1,3 +1,19 @@
-name: Jason Truluck
+# For Atom Feed
+domain: jasontruluck.org
+author: Jason Truluck
+email: jason@jasontruluck.org
+title: Jason Truluck's Blog
+
+# Analytics
+google_analytics: UA-28345761-1
+
+# Jekyll Config
 pygments: true
+
+# Feed
+feed_name: Jason Truluck's Blog
+feed_burner: JasonTrulucksDevBlog
+
+# Other
+gravatar_id: 06dcf60f0a55f880a641f7bee802283d
 

@@ -1,11 +1,23 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
+<h2>
+  {% if page.github %}
+    <a href="{{ page.github }}" target="_blank">
+      <i class="fa fa-github"> </i>
+    </a>
+  {% endif %}
+  {% if page.bitbucket %}
+    <a href="{{ page.bitbucket }}" target="_blank">
+      <i class="fa fa-bitbucket"> </i>
+    </a>
+  {% endif %}
+  {{ page.title }}
+</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div id="post">
-{{ content }}
+  {{ content }}
 </div>
 
 <div id="disqus_thread"></div>

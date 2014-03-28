@@ -5,21 +5,24 @@ title:  About
 
 <div id="about">
   <h3>About</h3>
-  Hi! I am Jason Truluck, a developer, tinkerer, and overall geek. 
-  <br/><br/>
+  <p>
+    Hey there! I am Jason Truluck and I like to do stuff!
+    <br/><br/>
+    This blog will chronicle my travels and thoughts on doing "stuff". This "stuff"
+    includes development, projects, travel and pretty much any thought I find useful
+    to share or keep.
+    <br/><br/>
 
-  This blog will chronicle my travels through development, projects and pretty
-  much any thought I find useful to share or keep. 
-  <br/><br/>
+    As a developer I primarily work with Ruby and Rails, but also use several other
+    languages and technologies including: Java, SASS, PostgreSQL, Javascript,
+    bash, and many more.
+    <br/><br/>
 
-  As a developer I primarily work with Ruby on Rails, but also use several other
-  languages and technologies including: PHP, Python, Java, SASS, PostgreSQL,
-  bash, in no particular order.
-  <br/><br/>
+    I also enjoy working with the arduino and raspberry pi, home automation,
+    mountain biking, climbing, and installing computers in cars :).
+    <br/><br/>
 
-  I also enjoy working on several other things including projects with the arduino and
-  raspberry pi, home automation, and installing computers in cars :). 
-  <br/><br/>
-
-  Also, I love to get out on the trail and mountain bike, playing video games, and watching movies. 
+    Unfortunately, most of the time I would rather be coding so this blog tends to get neglected.
+    I plan to change that!
+  </p>
 </div>

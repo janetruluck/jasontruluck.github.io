@@ -6,7 +6,7 @@ categories: ruyb array string optimization tricks postgres
 ---
 A quick trick that came to mind recently for converting string arrays to arrays
 was something that seems to come up quite a bit. Just to define what I am
-talking about, when I say "string-arrays" vs arrays I mean something like this: 
+talking about, when I say "string-arrays" vs arrays I mean something like this:
 
 {% highlight ruby %}
 "[1,2,3,4]" #<- String that contains an Array (String-Array)
@@ -26,10 +26,10 @@ today. There are many instances where you may already have this going on or have
 your reasons so heres some tips!
 
 - Treat the string as an array for fast conversion. This works well if you know
-  the format of the string and know it will be consistent. 
+  the format of the string and know it will be consistent.
 
   `"[1,2,3,4]"[1..-2].split(",")`<br/>
-  
+
   This will gather the items within the brackets using the standard method of
   grabbing items from an array using a range `[1..-2]` and then split the
   remaining string which is `1,2,3,4` by a delimeter you speciy (in this case `,`) leaving you with `[1,2,3,4]`
@@ -43,7 +43,7 @@ your reasons so heres some tips!
   `split`. This method has the benefit of flexibility over the other method, you
   can convert string arrays of non standard format like `" [1,2,3,3]"` which
   contains a space but at the cost of speed. You could also throw things like
-  `.compact` into the mix to remove that space as well but you can decide. 
+  `.compact` into the mix to remove that space as well but you can decide.
 
 ### Benchmarks
 
@@ -57,8 +57,8 @@ results is as such:
 # Using "[1,2,3,4]"[1..-2].split(",")
 # user     system      total        real
 0.000000   0.000000   0.000000 (  0.001216) # 1000 items
-0.010000   0.000000   0.010000 (  0.011726) # 10000 items 
-0.110000   0.000000   0.110000 (  0.110641) # 100000 items 
+0.010000   0.000000   0.010000 (  0.011726) # 10000 items
+0.110000   0.000000   0.110000 (  0.110641) # 100000 items
 1.100000   0.000000   1.100000 (  1.105512) # 1000000 items
 
 # Using "[1,2,3,4]".gsub("[", """]").gsub("", "]").split(
