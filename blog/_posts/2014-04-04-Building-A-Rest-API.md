@@ -53,4 +53,4 @@ Testing the API is super important (just like any other app!) and will help main
 ### Contents
 * [About](/blog/2014/04/04/Building-A-Rest-API.html)
 * Setup
-  * [Adding Grape](/blog/2014/04/04/Barebones-Rack-API-with-Grape.html)
+  * [Adding Grape](/blog/2014/04/03/Adding-Grape-to-a-Rack-Application.html)
