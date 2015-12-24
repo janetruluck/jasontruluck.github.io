@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jasontruluck
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.jasontruluck.org
+  * I am jasontruluck (https://keybase.io/jasontruluck) on keybase.
+  * I have a public key with fingerprint 0BD6 2B98 B591 8073 E882  5F22 1409 62B1 F109 E81C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101aba8df12eec875707bd7d01bfa830e14fabf269055252dccacdde04afbc085820a",
+            "fingerprint": "0bd62b98b5918073e8825f22140962b1f109e81c",
+            "host": "keybase.io",
+            "key_id": "140962b1f109e81c",
+            "kid": "0101aba8df12eec875707bd7d01bfa830e14fabf269055252dccacdde04afbc085820a",
+            "uid": "aee54cbfb4196893d36c11e1ca2ebe19",
+            "username": "jasontruluck"
+        },
+        "service": {
+            "hostname": "www.jasontruluck.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1450978594,
+    "expire_in": 157680000,
+    "prev": "b4f7f43c2af84e8c4fb3bfda0e606d956697aa2cd54159ddc2fea0e53415bbbe",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMI1AnicrZJdbFRFFMd3AWvbpLT6gNJYYyYaIZQyc/fOvXN3lQcaJBJKaECNqWWZ
+z+217b3L3butTdmUJxODTVQwNrVIKR9qfWmDaVKN4aMlNCkIDSmkkQ2aEJsmPBCi
+NZQHnNtAwoOPzsvkzPmd//zPyZmsWBkrj/fuXj3x8/zNmfj0+aF87N0DG0E3YL7o
+Aslu0CqXL9kmZC5Mt7oCJAFEEFFGiVDIkJITG9vQZsIWEDFFSQJKZCrKlGE5EGMD
+G4JzyoWQ0KSKcUgwMSAFtUC5XkYG2cD1wkiWCctgDmHYQQTaCUmIgZVhIBM6OoEU
+go4kiOvCFj8XVWhzjOZknevrNx2kl+39B/8/+84vy1EpscmZYiZyLOIkRMLiCEnE
+qSGZRE4E5mTg0Xap6Q9pzvfCIN+W562gUAt0psPlMhpu1M1jqrOzs+5pss4PMlon
+G/ihz/02TbSEYTYZCYRd2eUKydKPtdLM9YQeqS7okEHO9T2QRJrkoRuJIxNDxybY
+MWuB/CjrBjLtRgS2LQL1ib6RHVqSmcpWZoIbVBFTEm4qlmBKUCgtaAkHW5ZjU2pw
+gU2EHSG4oaRO4oQOGWMSRN3t93yQtLVNmtGSOTfj0TAfSFC4cO6DVbF4eazkmRXR
+qsXKy6qeLGD9K6Wx05ffGFzV/41XWfLals8mUgc25acLrwb1h5KZ2ngTa9rls207
+mhsbN6qt3Ye3VqkXj7Azi9Yfo6n6kYUf1n+79MIvysQH99Irq18eu7s4kFpSxbHx
+4nsD39V80d/0O2mYnVrb/c9Qz90T7c9f7f3pR/Zb7sGvW7z3z3557FTp26NvNY/z
+wY6dn9+4Ndf1cd8nd4oXK/u2/z0e/+tkTU9/AXx/p3pz6vqb9ZcqSti6xsLC2j+3
+tVVvqGks3j+0uOG5TFf7mZTAnw5Pj3QOs6/3jVY3i6NfXXt2YE/vzJ7DUwl3zTvZ
+S2MNj+bmp7bPHM+QIw8vvlRWNnuwErwOl25Pni6WnLi32fkXbuBGZg==
+=nuSA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jasontruluck
+
+==================================================================
