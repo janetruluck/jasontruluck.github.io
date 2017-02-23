@@ -55,7 +55,7 @@ cat /proc/mdstat
 
 which gives us something like:
 
-{% highlight %}
+{% highlight ruby %}
 Personalities : [raid6] [raid5] [raid4] [linear] [multipath] [raid0] [raid1] [raid10]
 md0 : active raid5 sdd[2] sde[4] sdc[1] sdb[0]
       2929893888 blocks super 1.2 level 5, 512k chunk, algorithm 2 [4/4] [UUUU]
