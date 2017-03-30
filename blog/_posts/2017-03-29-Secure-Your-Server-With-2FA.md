@@ -36,7 +36,7 @@ auth required pam_google_authenticator.so
 {% endhighlight %}
 
 It is important to note that you should definitely use `required` here. You can
-take a look at the [PAM](pam) docs for the
+take a look at the [PAM][pam] docs for the
 different options but required holds the benefit of not only bouncing a user
 out if they fail this method but it does not immediately reveal that was the
 method that bounced them, adding a but more over `requisite`.
